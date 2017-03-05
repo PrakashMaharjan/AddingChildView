@@ -1,19 +1,23 @@
 //
-//  FirstViewController.swift
-//  ChildViewSwapping
+//  ViewController1.swift
+//  AddingChildViews
 //
-//  Created by prakash Maharjan on 11/16/16.
-//  Copyright © 2016 Prakash Maharjan. All rights reserved.
+//  Created by prakash Maharjan on 1/17/17.
+//  Copyright © 2017 Prakash Maharjan. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ViewController1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
     }
 
     override func didReceiveMemoryWarning() {

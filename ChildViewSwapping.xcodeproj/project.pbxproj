@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		162E9E9D1DDBE25C00141105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E9E9C1DDBE25C00141105 /* AppDelegate.swift */; };
-		162E9E9F1DDBE25C00141105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E9E9E1DDBE25C00141105 /* ViewController.swift */; };
-		162E9EA21DDBE25C00141105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162E9EA01DDBE25C00141105 /* Main.storyboard */; };
 		162E9EA41DDBE25C00141105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162E9EA31DDBE25C00141105 /* Assets.xcassets */; };
 		162E9EA71DDBE25C00141105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162E9EA51DDBE25C00141105 /* LaunchScreen.storyboard */; };
-		162E9EAF1DDBE27F00141105 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E9EAE1DDBE27F00141105 /* FirstViewController.swift */; };
-		162E9EB11DDBE28F00141105 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E9EB01DDBE28F00141105 /* SecondViewController.swift */; };
-		162E9EB31DDBE29B00141105 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E9EB21DDBE29B00141105 /* ThirdViewController.swift */; };
+		16752CF61E6C3C7100B8B334 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16752CF21E6C3C7100B8B334 /* BaseViewController.swift */; };
+		16752CF71E6C3C7100B8B334 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16752CF31E6C3C7100B8B334 /* ViewController1.swift */; };
+		16752CF81E6C3C7100B8B334 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16752CF41E6C3C7100B8B334 /* ViewController2.swift */; };
+		16752CF91E6C3C7100B8B334 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16752CF51E6C3C7100B8B334 /* ViewController3.swift */; };
+		16752CFB1E6C3C8100B8B334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16752CFA1E6C3C8100B8B334 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		162E9E991DDBE25C00141105 /* ChildViewSwapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildViewSwapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		162E9E9C1DDBE25C00141105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		162E9E9E1DDBE25C00141105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		162E9EA11DDBE25C00141105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		162E9EA31DDBE25C00141105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		162E9EA61DDBE25C00141105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		162E9EA81DDBE25C00141105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		162E9EAE1DDBE27F00141105 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		162E9EB01DDBE28F00141105 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		162E9EB21DDBE29B00141105 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		16752CF21E6C3C7100B8B334 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		16752CF31E6C3C7100B8B334 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		16752CF41E6C3C7100B8B334 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		16752CF51E6C3C7100B8B334 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		16752CFA1E6C3C8100B8B334 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 		162E9E9B1DDBE25C00141105 /* ChildViewSwapping */ = {
 			isa = PBXGroup;
 			children = (
+				16752CFA1E6C3C8100B8B334 /* Main.storyboard */,
 				162E9E9C1DDBE25C00141105 /* AppDelegate.swift */,
-				162E9E9E1DDBE25C00141105 /* ViewController.swift */,
-				162E9EA01DDBE25C00141105 /* Main.storyboard */,
-				162E9EAE1DDBE27F00141105 /* FirstViewController.swift */,
-				162E9EB01DDBE28F00141105 /* SecondViewController.swift */,
-				162E9EB21DDBE29B00141105 /* ThirdViewController.swift */,
+				16752CF21E6C3C7100B8B334 /* BaseViewController.swift */,
+				16752CF31E6C3C7100B8B334 /* ViewController1.swift */,
+				16752CF41E6C3C7100B8B334 /* ViewController2.swift */,
+				16752CF51E6C3C7100B8B334 /* ViewController3.swift */,
 				162E9EA31DDBE25C00141105 /* Assets.xcassets */,
 				162E9EA51DDBE25C00141105 /* LaunchScreen.storyboard */,
 				162E9EA81DDBE25C00141105 /* Info.plist */,
@@ -106,6 +106,7 @@
 					162E9E981DDBE25C00141105 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = C2W3V35W5N;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -132,9 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16752CFB1E6C3C8100B8B334 /* Main.storyboard in Resources */,
 				162E9EA71DDBE25C00141105 /* LaunchScreen.storyboard in Resources */,
 				162E9EA41DDBE25C00141105 /* Assets.xcassets in Resources */,
-				162E9EA21DDBE25C00141105 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,25 +146,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162E9EB11DDBE28F00141105 /* SecondViewController.swift in Sources */,
-				162E9EAF1DDBE27F00141105 /* FirstViewController.swift in Sources */,
-				162E9EB31DDBE29B00141105 /* ThirdViewController.swift in Sources */,
-				162E9E9F1DDBE25C00141105 /* ViewController.swift in Sources */,
+				16752CF91E6C3C7100B8B334 /* ViewController3.swift in Sources */,
+				16752CF71E6C3C7100B8B334 /* ViewController1.swift in Sources */,
+				16752CF81E6C3C7100B8B334 /* ViewController2.swift in Sources */,
 				162E9E9D1DDBE25C00141105 /* AppDelegate.swift in Sources */,
+				16752CF61E6C3C7100B8B334 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		162E9EA01DDBE25C00141105 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				162E9EA11DDBE25C00141105 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		162E9EA51DDBE25C00141105 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -268,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prakashmaharjan.ChildViewSwapping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -279,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prakashmaharjan.ChildViewSwapping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -301,6 +296,7 @@
 				162E9EAD1DDBE25C00141105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

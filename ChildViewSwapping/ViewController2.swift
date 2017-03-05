@@ -1,14 +1,14 @@
 //
-//  ThirdViewController.swift
-//  ChildViewSwapping
+//  ViewController2.swift
+//  AddingChildViews
 //
-//  Created by prakash Maharjan on 11/16/16.
-//  Copyright © 2016 Prakash Maharjan. All rights reserved.
+//  Created by prakash Maharjan on 1/17/17.
+//  Copyright © 2017 Prakash Maharjan. All rights reserved.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +16,9 @@ class ThirdViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
