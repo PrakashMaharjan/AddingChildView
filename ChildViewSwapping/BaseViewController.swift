@@ -105,7 +105,7 @@ class BaseViewController: UIViewController {
     
     fileprivate func add(asChildViewController viewController: UIViewController) {
         // Add Child View Controller
-        addChildViewController(viewController)
+        addChild(viewController)
         
         // Add Child View as Subview
         view.addSubview(viewController.view)
@@ -114,23 +114,23 @@ class BaseViewController: UIViewController {
        // viewController.view.frame = view.bounds
         viewController.view.frame = CGRect(x: 0, y: 135, width: self.view.frame.size.width, height: self.view.frame.size.height - 135)
      
-        viewController.view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+        viewController.view.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth, UIView.AutoresizingMask.flexibleHeight]
         
         // Notify Child View Controller
 
-        viewController.didMove(toParentViewController: self)
+        viewController.didMove(toParent: self)
     }
     
     fileprivate func remove(asChildViewController viewController: UIViewController) {
         // Notify Child View Controller
  
-        viewController.willMove(toParentViewController: nil)
+        viewController.willMove(toParent: nil)
         
         // Remove Child View From Superview
         viewController.view.removeFromSuperview()
         
         // Notify Child View Controller
-        viewController.removeFromParentViewController()
+        viewController.removeFromParent()
     }
 
     override func didReceiveMemoryWarning() {
