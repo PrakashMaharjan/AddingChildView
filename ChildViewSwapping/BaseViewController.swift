@@ -112,7 +112,7 @@ class BaseViewController: UIViewController {
         
         // Configure Child View
        // viewController.view.frame = view.bounds
-        viewController.view.frame = CGRect(x: 0, y: 135, width: self.view.frame.size.width, height: self.view.frame.size.height - 135)
+        viewController.view.frame = CGRect(x: 0, y: 150, width: self.view.frame.size.width, height: self.view.frame.size.height - 150)
      
         viewController.view.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth, UIView.AutoresizingMask.flexibleHeight]
         
