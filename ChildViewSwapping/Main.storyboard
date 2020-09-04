@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Pml-KJ-mnS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Pml-KJ-mnS">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -81,6 +81,9 @@
                     <navigationItem key="navigationItem" id="GzX-0u-HYC"/>
                     <connections>
                         <outlet property="containerView" destination="NG4-3u-uvc" id="44G-ER-kue"/>
+                        <outlet property="view1Button" destination="pYb-Bz-ujj" id="eKF-Fa-yO8"/>
+                        <outlet property="view2Button" destination="bq2-hc-3e3" id="QjF-h2-Myu"/>
+                        <outlet property="view3Button" destination="kIe-Pg-JvK" id="AeE-nA-AoP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
